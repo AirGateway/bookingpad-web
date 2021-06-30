@@ -1,6 +1,6 @@
 ---
-title: Air France
-provider: AF
+title: Avianca
+provider: AV
 shopping: Available
 booking: Available
 ticketing: Available
@@ -9,7 +9,7 @@ ancillaries:
   - Seats
   - Baggage
 date_change: true
-fqtv: true
+fqtv: false
 fares:
   - Public
   - Private
@@ -17,9 +17,8 @@ fares:
 fop:
   - Cash
   - Credit Card
-fqtv: false
-status: Certification
-status_hint: 
-date: 2021-06-01T00:00:07.000Z
+status: Certifiaction
+date: 2020-01-01T00:00:10.001Z
 layout: post
+status_hint: Certification in progress
 ---

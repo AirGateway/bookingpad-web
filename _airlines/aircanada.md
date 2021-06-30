@@ -1,15 +1,13 @@
 ---
-title: Air France
-provider: AF
+title: Air Canada
+provider: AC
 shopping: Available
 booking: Available
 ticketing: Available
 cancel_refund: Available
 ancillaries:
-  - Seats
-  - Baggage
-date_change: true
-fqtv: true
+date_change: false
+fqtv: false
 fares:
   - Public
   - Private
@@ -17,9 +15,8 @@ fares:
 fop:
   - Cash
   - Credit Card
-fqtv: false
-status: Certification
-status_hint: 
-date: 2021-06-01T00:00:07.000Z
+status: Implementation
+date: 2021-10-01T00:00:07.000Z
 layout: post
+status_hint: Implementation in progress
 ---
