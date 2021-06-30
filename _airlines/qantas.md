@@ -1,16 +1,29 @@
 ---
 title: Qantas
 provider: QF
-shopping:
-booking:
-ticketing:
-cancel_refund:
+shopping: Available
+booking: Available
+ticketing: Available
+cancel_refund: Available
 ancillaries:
+  - Seats
+  - Baggage
+  - Meals
 postsale:
-date_change: false
-fqtv: false
+  - Seats
+  - Baggage
+  - Meals
+date_change: true
+fqtv: true
 fares:
+  - Public
+  - Private
+  - Corporate
 fop:
-date: 2020-08-25T15:48:59.218Z
+  - Cash
+  - Credit Card
+status: Live
+status_hint: 
+date: 2021-08-01T00:00:03.000Z
 layout: post
 ---
