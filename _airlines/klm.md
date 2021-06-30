@@ -1,8 +1,15 @@
 ---
 title: KLM
 provider: KL
+shopping: Available
+booking: Available
 ticketing: Available
-date_change: -
+cancel_refund: Available
+ancillaries:
+  - Seats
+  - Baggage
+date_change: true
+fqtv: true
 fares:
   - Public
   - Private
@@ -10,18 +17,9 @@ fares:
 fop:
   - Cash
   - Credit Card
-postsale:
-  - Seats
-  - Baggage
-shopping: Available
-booking: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
 fqtv: false
 status: Certification
-date: 2020-01-01T00:00:13.000Z
+status_hint: 
+date: 2020-01-01T00:00:07.000Z
 layout: post
-status_hint: Awaiting airline certification process
 ---
