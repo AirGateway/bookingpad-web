@@ -12,12 +12,12 @@ There are existing solutions for direct distribution commonly called "Agency Por
 * [AF/KL Agent Connect](https://www.agentconnect.biz/FR/fr/local/process/prehome/choose_country.wadis)
 * [AA SPRK](https://dcwebc.farelogix.com/sprk-aa/User/Login?ReturnUrl=%2fsprk-aa%2f)
 
-The big problem of these solutions is that they work only for an airline group, which agencies reasonably argue that is not a reasonable way to work in a multi-airline environment as they have been traditionally doing in the legacy systems like GDSs.
+These solutions work only for an airline group. This might be a big problem for agencies, who can reasonably argue that they don't provide a functional way to operate in a multi-airline environment as they have been traditionally doing in the legacy systems like GDSs.
 
-Bookingpad aggregates content, for shopping, booking, and servicing for **ALL the NDC airlines you have been authorized**. All of it in one single and consistent web GUI, which means that your agents don't need to learn a different user experience for working with each airline.
+After your agency gets authorized by each earline’s NDC, Bookingpad will aggregate **all of their content**, for shopping, booking, and servicing **in one single and consistent web** GUI. This means that your agents won’t have to learn a different user experience to work with each airline.
 
-This, BTW, is precisely the purpose of NDC itself as a distribution standard, in opposition to the argumentation that NDC has been created to obfuscate fares comparison.
+Although it seems the opposite, having all the content aggregated in one place is the exact purpose of NDC as a distribution standard, not quite the contradictory argument for which NDC might have been created with the purpose of obfuscating fares comparison.
 
-This screenshot speaks by itself.
+This screenshot speaks by itself:
 
 ![Bookingpad_Shopping_Results](/assets/uploads/bookingpad_shopping_results.png "Bookingpad Shopping Results")
