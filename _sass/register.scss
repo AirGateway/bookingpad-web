@@ -51,9 +51,9 @@
 
 form {
   input {
-    &[type='text'],
-    &[type='email'] {
-      font-family: 'Mukta', sans-serif;
+    &[type="text"],
+    &[type="email"] {
+      font-family: "Mukta", sans-serif;
       font-size: 1.6rem;
       font-weight: 600;
       padding: 0.5rem;
@@ -64,7 +64,7 @@ form {
     }
   }
   button {
-    font-family: 'Mukta', sans-serif;
+    font-family: "Mukta", sans-serif;
     font-weight: 700;
   }
 
@@ -91,7 +91,10 @@ form {
 section {
   &.leads-form {
     padding-top: 8rem;
-
+    background-color: #e9f4ff;
+    @media only screen and (max-width: 720px) {
+      padding-top: 10rem;
+    }
     .form {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -108,8 +111,14 @@ section {
       height: 0;
       border: 6px solid transparent;
       border-color: #fff transparent transparent transparent;
-  }
+    }
   }
 }
 
-
+.form-grid {
+  @media only screen and (min-width: 960px) {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    grid-column-gap: 2rem;
+  }
+}
