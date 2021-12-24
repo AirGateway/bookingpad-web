@@ -4,15 +4,14 @@
 
 <body>
 
-  {%- include global_header.html -%}
+  {%- include site_header.html -%}
 
-  <main>
-    {{- content -}}
-  </main>
+  <div id="regionMain">
+  {{- content -}}
   {%- include footer.html -%}
-
   {%- include google-analytics.html -%}
-  
+  </div>
+
 </body>
 
 </html>

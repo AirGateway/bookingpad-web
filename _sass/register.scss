@@ -87,3 +87,29 @@ form {
     font-size: 1.13rem;
   }
 }
+
+section {
+  &.leads-form {
+    padding-top: 8rem;
+
+    .form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  #Salutation {
+    &::after {
+      position: absolute;
+      content: "";
+      top: 14px;
+      right: 10px;
+      width: 0;
+      height: 0;
+      border: 6px solid transparent;
+      border-color: #fff transparent transparent transparent;
+  }
+  }
+}
+
+
