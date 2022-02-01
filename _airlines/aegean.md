@@ -8,7 +8,7 @@ cancel_refund: Available
 ancillaries:
   - Seats
   - Baggage
-date_change: true
+date_change: false
 fqtv: true
 fares:
   - Public

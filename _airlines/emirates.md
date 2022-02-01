@@ -2,7 +2,7 @@
 title: Emirates
 provider: EK
 ticketing: Available
-date_change: true
+date_change: false
 fares:
   - Public
   - Private

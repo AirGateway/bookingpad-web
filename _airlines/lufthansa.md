@@ -13,7 +13,7 @@ postsale:
   - Seats
   - Baggage
   - Meals
-date_change: true
+date_change: false
 fqtv: true
 fares:
   - Public
