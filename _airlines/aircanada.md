@@ -15,7 +15,7 @@ fares:
 fop:
   - Cash
   - Credit Card
-status: Implementation
+status: Hold
 date: 2021-10-01T00:00:07.000Z
 layout: post
 status_hint: Implementation in progress
