@@ -1,20 +1,22 @@
 ---
+pos: 8
 title: United
 provider: UA
-shopping: Available
-booking: Available
-ticketing: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
-date_change: true
-fqtv: false
-fares:
-  - Public
-  - Private
+voiding: Not available
+shopping: 
+  - Published
+  - Negotiated
+booking: 
+  - Instant Payment
+  - On hold
+cancel_refund: Original form of payment
+seats: Supported
+services: Supported
+split: Not available
+date_change: Cabin changes, Date changes, Time changes
+disruptions: Supported
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
 status: Live
 status_hint: 

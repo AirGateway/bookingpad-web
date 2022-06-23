@@ -1,27 +1,25 @@
 ---
+pos: 2
 title: Hahn Air
 site: https://www.hahnair.com/
 description: Provides Access to 365+ carriers through location-based distribution agreements
-shopping: Available
-booking: Available
-ticketing: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
-postsale:
-  - Seats
-  - Baggage
-date_change: true
-fqtv: false
-fares:
-  - Public
-  - Private
-  - Corporate
+voiding: 
+date_change: Cabin changes, Date changes, Time changes
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
-status: Live
+shopping: 
+  - Published
+  - Private
+booking: 
+  - Instant Payment
+  - On hold
+cancel_refund: Original form of payment
+seats: Supported
+services: Supported
+split: 
+disruptions: 
+status: Implementation
 date: 2020-09-25T10:11:04.980Z
 layout: post
 ---

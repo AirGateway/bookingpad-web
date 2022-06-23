@@ -1,54 +1,49 @@
 .homeRegister {
-  background-color: #e9f4ff;
+  background-color: #E9F4FF;
   &Grid {
     display: grid;
     grid-template-columns: 1fr;
-
     @media only screen and (min-width: 960px) {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 5rem;
     }
   }
-
   &Item {
     padding: 1rem;
-
+    text-align: center;
     &:last-child {
       @media only screen and (min-width: 960px) {
-        border-left: 3px solid #dee1eb;
+        border-left: 3px solid #DEE1EB;
         padding-left: 3rem;
+        display: flex;
+        align-items: center;
       }
     }
   }
-
   h3 {
-    color: #ac0004;
+    color: #AC0004;
     font-size: 2rem;
     font-weight: 600;
     margin: 1rem 0;
     border-top: 3px solid rgba(0, 0, 0, 0.1);
-
     @media only screen and (min-width: 960px) {
       margin-bottom: 1.5rem;
       font-size: 2.3rem;
       border-top: none;
     }
-
     &.registerFormTitle {
-      color: #404040;
+      color: #AC0004;
       font-weight: 700;
-      font-size: 1.4rem;
+      margin-top: 0;
       margin-bottom: 0.8rem;
     }
   }
-
   .primaryButton {
     font-size: 1.4rem;
     margin-top: 1rem;
     padding: 0.5rem 2rem;
   }
 }
-
 form {
   input {
     &[type="text"],
@@ -67,31 +62,26 @@ form {
     font-family: "Mukta", sans-serif;
     font-weight: 700;
   }
-
   ::placeholder {
     color: $gray;
     font-weight: 400;
   }
 }
-
 .qaItem {
   margin-bottom: 2rem;
-
   h4 {
     font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 0.8rem;
   }
-
   p {
     font-size: 1.13rem;
   }
 }
-
 section {
   &.leads-form {
     padding-top: 8rem;
-    background-color: #e9f4ff;
+    background-color: #E9F4FF;
     @media only screen and (max-width: 720px) {
       padding-top: 10rem;
     }
@@ -100,7 +90,6 @@ section {
       grid-template-columns: 1fr 1fr;
     }
   }
-
   #Salutation {
     &::after {
       position: absolute;
@@ -114,7 +103,6 @@ section {
     }
   }
 }
-
 .form-grid {
   @media only screen and (min-width: 960px) {
     display: grid;

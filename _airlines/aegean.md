@@ -1,21 +1,18 @@
 ---
+pos: 6
 title: Aegean
 provider: A3
-shopping: Available
-booking: Available
-ticketing: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
-date_change: false
-fqtv: true
-fares:
-  - Public
-  - Private
-  - Corporate
+voiding: Not available
+shopping: Published
+booking: Instant Payment
+cancel_refund: Original form of payment
+seats: Supported
+services: Supported
+split: Not available
+date_change: Not available
+disruptions: Supported
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
 status: Live
 status_hint: 

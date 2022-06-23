@@ -1,26 +1,22 @@
 ---
+pos: 5
 title: Lufthansa
-provider: LH
-shopping: Available
-booking: Available
-ticketing: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
-  - Meals
-postsale:
-  - Seats
-  - Baggage
-  - Meals
-date_change: false
-fqtv: true
-fares:
-  - Public
-  - Private
-  - Corporate
+provider: LHG
+voiding: 24 Hours
+shopping: 
+  - Published
+  - Negotiated
+booking: 
+  - Instant Payment
+  - On hold
+cancel_refund: Original form of payment
+seats: Supported
+services: Supported
+split: Not available
+date_change: Cabin changes, Date changes, Time changes
+disruptions: Supported
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
 status: Live
 status_hint: 

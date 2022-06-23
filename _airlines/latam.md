@@ -1,19 +1,22 @@
 ---
+pos: 16
 title: LATAM
 provider: LA
-shopping: Available
-booking: Available
-ticketing: Available
-cancel_refund: Available
-ancillaries:
-date_change: false
-fqtv: false
-fares:
-  - Public
+voiding: 
+shopping: 
+  - Published
   - Private
-  - Corporate
+booking: 
+  - Instant Payment
+  - On hold
+cancel_refund: Original form of payment
+seats: 
+services: 
+split: 
+date_change: 
+disruptions: 
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
 status: Implementation
 date: 2021-12-01T00:00:07.000Z

@@ -160,13 +160,13 @@
     }
   }
 
-  &FooterMessage {
-    padding-top: 3rem;
-    h3 {
-      font-weight: 700;
-      margin-bottom: 0.5rem;
+  &HeaderMessage {
+    padding-bottom: 0.8rem;
+    p {
+      font-weight: 600;
+      color: #C00005;
     }
-  }
+  } 
 }
 
 .digit {

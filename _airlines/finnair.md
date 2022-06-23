@@ -1,21 +1,21 @@
 ---
+pos: 13
 title: Finnair
 provider: AY
-date_change: true
-fares:
-  - Public
+voiding: Not available
+date_change: Cabin changes, Date changes, Time changes
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
-postsale: Seats
-shopping: Available
-booking: Available
-ticketing: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
-fqtv: true
+shopping: Published
+booking: 
+  - Instant Payment
+  - On hold
+cancel_refund: Original form of payment
+seats: Supported
+services: Supported
+split: Supported
+disruptions: Supported
 status: Live
 date: 2020-08-25T15:48:54.218Z
 layout: post
