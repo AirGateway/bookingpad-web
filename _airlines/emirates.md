@@ -1,25 +1,21 @@
 ---
+pos: 9
 title: Emirates
 provider: EK
-ticketing: Available
-date_change: false
-fares:
-  - Public
-  - Private
-  - Corporate
+voiding: Not available
+date_change: Not available
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
-postsale:
-  - Seats
-  - Baggage
-shopping: Available
-booking: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
-fqtv: false
+shopping: Published
+booking: 
+  - Instant Payment
+  - On hold
+cancel_refund: Not Available
+seats: Supported
+services: Supported
+split: Supported
+disruptions: Supported
 status: Live
 date: 2020-01-01T00:00:14.000Z
 layout: post

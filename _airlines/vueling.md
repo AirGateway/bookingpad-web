@@ -1,16 +1,20 @@
 ---
+pos: 4
 title: Vueling
 provider: VY
-shopping:
-booking:
-ticketing:
-cancel_refund:
-ancillaries:
-postsale:
-date_change: false
-fqtv: false
-fares:
+voiding: Not available
+shopping: Published
+booking: Instant Payment
+cancel_refund: Not Available
+seats: Supported
+services: Supported
+split: Not available
+date_change: Not available
+disruptions: Not available
 fop:
+  - Cash Payment
+  - Credit Card
+status: Live
 date: 2020-08-25T15:49:00.218Z
 layout: post
 ---

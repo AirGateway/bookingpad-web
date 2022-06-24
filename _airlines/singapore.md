@@ -1,21 +1,22 @@
 ---
+pos: 11
 title: Singapore
 provider: SQ
-shopping: Available
-booking: Available
-ticketing: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
-date_change: true
-fqtv: false
-fares:
-  - Public
-  - Private
-  - Corporate
+voiding: Midnight
+shopping: 
+  - Published
+  - Negotiated
+booking: 
+  - Instant Payment
+  - On hold
+cancel_refund: Original form of payment
+seats: Supported
+services: Supported
+split: Supported
+date_change: Cabin changes, Date changes, Time changes
+disruptions: Supported
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
 status: Live
 date: 2020-01-01T00:00:10.001Z

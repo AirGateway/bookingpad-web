@@ -1,23 +1,29 @@
 ---
+pos: 1
 title: British Airways
 provider: BA
-shopping: Available
-booking: Available
-ticketing: Available
-cancel_refund: Available
-ancillaries:
-  - Seats
-  - Baggage
-  - Meals
-date_change: true
-fqtv: true
-fares:
-  - Public
-  - Private
+voiding: 
+  - 24 Hours
+  - Midnight
+shopping: 
+  - Published
+  - Negotiated
   - Corporate
+booking: 
+  - Instant Payment
+  - On hold
+cancel_refund: 
+  - Original form of payment
+  - Voucher
+seats: Supported
+services: Supported
+split: Supported
+date_change: Cabin changes, Date changes, Time changes
+disruptions: Supported
 fop:
-  - Cash
+  - Cash Payment
   - Credit Card
+  - Voucher
 status: Live
 date: 2020-01-01T00:00:01.000Z
 layout: post

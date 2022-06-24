@@ -1,6 +1,10 @@
 <section id="pricing" class="homePricing section scrollspy">
     <div class="wrapper">
         <h2 class="sectionHeading">Plans & Pricing</h2>
+        <div class="homePricingHeaderMessage">
+            <p>No setup or implementation fees</h3>
+            <p>No minimum booking commitments</p>
+        </div>
         <div class="homePricingGrid">
             {% for plan in site.plans %}
             <div class="homePricingItem
@@ -10,6 +14,7 @@
             {% endif %} ">
                 <div class="homePricingBlurb">
                     <div class="homePricingHead">
+                        <h4>{{ plan.main_title }}</h4>
                         <h3>{{ plan.title }}</h3>
                         <div class="homePricingRate digitBig">
                             <span>{{ plan.price_main }}</span>
@@ -29,10 +34,6 @@
                 </div>
             </div>
             {% endfor %}
-        </div>
-        <div class="homePricingFooterMessage">
-            <h3>NO SETUP/IMPLEMENTATION FEES</h3>
-            <!-- <p>We welcome our customers with a handshake :)</p> -->
         </div>
     </div>
 </section>
