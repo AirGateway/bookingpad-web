@@ -2,7 +2,7 @@
 pos: 2
 title: Hahn Air
 site: https://www.hahnair.com/
-description: Provides Access to 365+ carriers through location-based distribution agreements
+description: Provides access to 365+ carriers through location-based distribution agreements.
 voiding: 
 date_change: Cabin changes, Date changes, Time changes
 fop:

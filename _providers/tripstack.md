@@ -2,7 +2,7 @@
 pos: 1
 title: TripStack
 site: https://www.tripstack.com/products/lcc/
-description: Provides Access to 175+ low-cost carriers globally.
+description: Provides access to 175+ low-cost carriers globally.
 voiding: 
 date_change: Cabin changes, Date changes, Time changes
 fop: 
