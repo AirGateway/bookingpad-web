@@ -1,0 +1,16 @@
+current directory: /Users/german/Jekyll projects/bookingpad-web/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/german/.rvm/rubies/ruby-2.6.8/bin/ruby -I /Users/german/.rvm/rubies/ruby-2.6.8/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220707-3050-6ojek4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/german/Jekyll projects/bookingpad-web/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/german/Jekyll projects/bookingpad-web/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/german/Jekyll projects/bookingpad-web/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20220707-3050-ehknm2
