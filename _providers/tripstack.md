@@ -11,6 +11,7 @@ shopping: Published
 booking:
   - Instant Payment
   - On hold
+cancel_on_hold: Not available
 cancel_refund: 
 seats: Supported
 services: Supported

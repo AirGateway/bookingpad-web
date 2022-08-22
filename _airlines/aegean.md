@@ -2,9 +2,10 @@
 pos: 6
 title: Aegean
 provider: A3
-voiding: Not available
+voiding: Midnight
 shopping: Published
 booking: Instant Payment
+cancel_on_hold: Not available
 cancel_refund: Original form of payment
 seats: Supported
 services: Supported

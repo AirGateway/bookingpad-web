@@ -2,7 +2,7 @@
 pos: 9
 title: Emirates
 provider: EK
-voiding: Not available
+voiding: Midnight
 date_change: Not available
 fop:
   - Cash Payment
@@ -11,6 +11,7 @@ shopping: Published
 booking: 
   - Instant Payment
   - On hold
+cancel_on_hold: Not available
 cancel_refund: Not Available
 seats: Supported
 services: Supported

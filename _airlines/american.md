@@ -2,13 +2,14 @@
 pos: 7
 title: American
 provider: AA
-voiding: Not available
+voiding: Midnight
 shopping: 
   - Published
   - Negotiated
 booking:
   - Instant Payment
   - On hold
+cancel_on_hold: Supported
 cancel_refund: Original form of payment
 seats: Supported
 services: Not available

@@ -2,13 +2,14 @@
 pos: 8
 title: United
 provider: UA
-voiding: Not available
+voiding: 24 Hours
 shopping: 
   - Published
   - Negotiated
 booking: 
   - Instant Payment
   - On hold
+cancel_on_hold: Supported
 cancel_refund: Original form of payment
 seats: Supported
 services: Supported

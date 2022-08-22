@@ -8,6 +8,7 @@ shopping:
   - Negotiated
   - Corporate
 booking: On hold
+cancel_on_hold: Supported
 cancel_refund: Cash Payment
 seats: Supported
 services: Supported

@@ -2,10 +2,12 @@
 pos: 15
 title: Hawaiian Airlines
 provider: HA
-voiding: 
+voiding: 24 Hours
 date_change: 
 fop: 
 shopping: 
+  - Published
+  - Negotiated
 booking: 
 cancel_refund: 
 seats: 

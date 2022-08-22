@@ -5,6 +5,7 @@ provider: VY
 voiding: Not available
 shopping: Published
 booking: Instant Payment
+cancel_on_hold: Not available
 cancel_refund: Not Available
 seats: Supported
 services: Supported

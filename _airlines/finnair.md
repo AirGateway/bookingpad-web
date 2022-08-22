@@ -2,7 +2,7 @@
 pos: 13
 title: Finnair
 provider: AY
-voiding: Not available
+voiding: 24 Hours
 date_change: Cabin changes, Date changes, Time changes
 fop:
   - Cash Payment
@@ -11,6 +11,7 @@ shopping: Published
 booking: 
   - Instant Payment
   - On hold
+cancel_on_hold: Supported
 cancel_refund: Original form of payment
 seats: Supported
 services: Supported

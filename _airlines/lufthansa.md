@@ -9,6 +9,7 @@ shopping:
 booking: 
   - Instant Payment
   - On hold
+cancel_on_hold: Supported
 cancel_refund: Original form of payment
 seats: Supported
 services: Supported
