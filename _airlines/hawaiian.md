@@ -10,7 +10,9 @@ fop:
 shopping: 
   - Published
   - Negotiated
-booking: Instant Payment
+booking:
+  - Instant Payment
+  - On hold
 cancel_refund: 
 seats: 
 services: 
