@@ -5,10 +5,12 @@ provider: HA
 voiding: 24 Hours
 date_change: 
 fop: 
+  - Cash Payment
+  - Credit Card
 shopping: 
   - Published
   - Negotiated
-booking: 
+booking: Instant Payment
 cancel_refund: 
 seats: 
 services: 
