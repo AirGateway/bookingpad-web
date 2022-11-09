@@ -5,7 +5,8 @@
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
+    padding: 0 2rem;
 
     @media only screen and (min-width: 960px) {
       grid-template-columns: repeat(3, 1fr);
@@ -140,6 +141,7 @@
 
   &Head {
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   &Rate {
