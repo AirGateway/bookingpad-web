@@ -2,7 +2,7 @@
 pos: 8
 title: United
 provider: UA
-voiding: 24 Hours
+voiding: 6 GMT
 shopping: 
   - Published
   - Negotiated

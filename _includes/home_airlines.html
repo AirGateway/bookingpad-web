@@ -198,6 +198,8 @@
                                 <span>24H</span>
                                 {% elsif airline.voiding == "Midnight" %}
                                 <span>MID</span>
+                                {% elsif airline.voiding == "6 GMT" %}
+                                <span>6:00 GMT</span>
                                 {% elsif airline.voiding == "Not available" %}
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
