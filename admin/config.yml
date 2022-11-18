@@ -76,7 +76,7 @@ collections:
       - { label: "Shopping", name: "shopping", widget: "select", multiple: true, options: ["ALL", "Published", "Negotiated", "Corporate", "Private", "Touroperators", "Family"]  }
       - { label: "Booking", name: "booking", widget: "select", multiple: true, options: ["Instant Payment", "On hold"]  }
       - { label: "Cancel on hold", name: "cancel_on_hold", widget: "select", options: ["Supported", "Not available"]  }
-      - { label: "Voiding", name: "voiding", widget: "select", options: ["Midnight", "24 Hours", "Not available"]  }
+      - { label: "Voiding", name: "voiding", widget: "select", options: ["Midnight", "24 Hours", "6 GMT", "Not available"]  }
       - { label: "Cancel & Refund", name: "cancel_refund", widget: "select", multiple: true, options: ["Original form of payment", "Voucher", "Cash Payment", "Not available"]  }
       - { label: "Seats", name: "seats", widget: "select", options: ["Supported", "Not available"], hint: "Select all that applies" }
       - { label: "Services", name: "services", widget: "select", options: ["Supported", "Not available"], hint: "Select all that applies" }
@@ -104,7 +104,7 @@ collections:
       - { label: "Shopping", name: "shopping", widget: "select", multiple: true, options: ["ALL", "Published", "Negotiated", "Corporate", "Private", "Touroperators", "Family"]  }
       - { label: "Booking", name: "booking", widget: "select", multiple: true, options: ["Instant Payment", "On hold"]  }
       - { label: "Cancel on hold", name: "cancel_on_hold", widget: "select", options: ["Supported", "Not available"]  }
-      - { label: "Voiding", name: "Voiding", widget: "select", multiple: true, options: ["Midnight", "24 Hours", "Not available"]  }
+      - { label: "Voiding", name: "Voiding", widget: "select", multiple: true, options: ["Midnight", "24 Hours", "6 GMT", "Not available"]  }
       - { label: "Cancel & Refund", name: "cancel_refund", widget: "select", multiple: true, options: ["Original form of payment", "Voucher", "Cash Payment", "Not available"]  }
       - { label: "Seats", name: "seats", widget: "select", options: ["Supported", "Not available"], hint: "Select all that applies" }
       - { label: "Services", name: "services", widget: "select", options: ["Supported", "Not available"], hint: "Select all that applies" }
