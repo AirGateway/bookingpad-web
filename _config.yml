@@ -18,6 +18,8 @@ url: "https://bookingpad.net"
 twitter_username: Bookingpad
 github_username:  AirGateway
 
+google_analytics: G-CJE7CTE9E7
+
 include:
   - _redirects
 
